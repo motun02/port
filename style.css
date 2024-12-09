@@ -1,70 +1,83 @@
-*{
- padding: 0;
-margin: 0;
-box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
- body{
- font-family: Arial, sans-serif;
-line-height: 1.6;
- }
- header{
- background:#333;
-color:#fff;
-padding: 10px0;
-text-align:center;
- }
- header h1{
-    margin: 0;
- }
- nav ul li a{
- list-style: none; 
- display: flex; 
- justify-content: center; 
- padding: 0;
- }
- nav ul li a{
-    color: #fff;
-    text-decoration: none;
- }
- section {
-    padding: 20px;
-    margin: 20px0;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
- }
- #about,#projects,#contact{
-    background: color #f4f4f4;
-    padding: 20px;
-    border-radius: 1opx;
- }
-.project{
-    margin: 15px0;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
-footer{
-    background: #333;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 8rem;
 }
-button:hover{
-    background-color: #555;
+header h1 {
+  margin: 0;
 }
- form{
-    display: flex;
-    flex-direction: column;
- }
- form label{
-    margin: 10px0 5px;
- }
-form input,form textarea{
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+nav ul li a {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
 }
-
-
-
-
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #ccc;
+}
+section {
+  padding: 20px;
+  margin: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about,
+#projects,
+#contact {
+  background: color #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+.project {
+  margin: 15px0;
+}
+footer {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #555;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin: 10px 5px;
+}
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.one {
+  display: flex;
+  list-style: none;
+  gap: 7rem;
+  align-items: center;
+  justify-content: center;
+}
